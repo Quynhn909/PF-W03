@@ -1,23 +1,23 @@
-let btnAction = document.getElementById("btn-action");
-let a = document.getElementById(input1);
-let b = document.getElementById(input2);
-
-let inputElem = document.getElementById(input);
-let outputElem = document.getElementById(output);
-
-let c = document.getElementById(output1);
-let d = document.getElementById(output2);
+let btnAction1 = document.getElementById("btn-action1");
 
 
-btnAction.addEventListener("click", () => {
-    let amount = (document.getElementById("money").value);
+
+btnAction1.addEventListener("click", () => {
+    let amount = parseInt(document.getElementById("money").value);
     
+let a = (document.getElementById("input1")).innerText;
+let b = (document.getElementById("input2")).innerText;
+
+let input = document.getElementById("input");
+let output = document.getElementById("output");
+
+let c = (document.getElementById("output1")).innerText;
+let d = (document.getElementById("output2")).innerText;
     
-    if (inputElem = a, outputElem = d){
+    if (input === a, output === b){
         alert(` Result:  ${amount / 24540} USD`);
 
-    }else(inputElem = b, outputElem = c) => {
-        alert(` Result:  ${amount * 24540} VND`);}
+    }else(input === b, output === a);{
+        alert(` Result:  ${amount * 24540} VND`);
     }
-        
-    );
+    });

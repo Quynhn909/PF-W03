@@ -1,7 +1,7 @@
 let height = prompt("Please input your height in m: ");
 let weight = prompt("Please input your weight in kg: ");
 
-let bmi = weight / (height ^ 2);
+let bmi = (weight / (height ^ 2));
 
 if(bmi < 16){
     alert("Gầy độ III");
